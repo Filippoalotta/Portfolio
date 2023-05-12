@@ -94,7 +94,7 @@ body {
   
   .project-title {
     text-align: center;
-    font-size: 42px;
+    font-size: 36px;
     margin: 50px 0px 20px 0px;
     color: rgb(12, 0, 60);
   }
@@ -150,10 +150,6 @@ body {
       margin-top: 40px;
       color: #0c003c;
       font-size: 20px;
-    }
-
-    .project-title {
-      font-size: 36px;
     }
 
   }
