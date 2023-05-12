@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/contact.css">
+    <link rel="icon" href="../icons/logo-favicon.png">
+    <title>Filippo Alotta - Say Hello</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header-container">
+        <a href="../index.html"><img class="logo" src="../icons/logo-icon.png" alt="Logo"></img></a>
+        <nav class="head-nav">
+            <ul>
+                <li><a class="head-a" href="../index.html">Home</a></li>
+                <li><a class="head-a" href="../pages/portfolio.html">Portfolio</a></li>
+            </ul>
+        </nav> 
+        <a href="../pages/contact.html"><button class="btn-contact">Say Hello</button></a>
+    </header>   
+    <!-- HEADER -->
+    <!-- Contact -->
+    <!-- COLLEGHERO' EMAILJS AL FORM APPENA FINITO IL CORSO DI JS BASE  -->
+    <section class="contact-section">
+            <h2 class="contact-title">Let's build something together!</h2>
+            <p class="contact-para">I'm interested in ambitious projects. However, if you have other question, click the button.</p>
+            <form class="form-container" action="#" method="POST">
+                <span>
+                    <div class="name-container">
+                        <label for="nome" class="lab-name"></label>
+                        <input type="text" name="name" id="nome" placeholder="Your name..." required >
+                    </div>
+                    <div class="name-container">
+                        <label for="cognome" class="lab-name"></label>
+                        <input type="text" name="last-name" id="cognome" placeholder="Your last name..." required >
+                    </div>
+                    <div class="name-container">
+                        <label for="email-input" class="lab-email"></label>
+                        <input type="email" name="email" id="email-input" placeholder="Your email..." required>
+                    </div>
+                    <div class="message-container">
+                        <label for="message" class="lab-message"></label>
+                        <textarea name="message" id="message" placeholder="Your message..." cols="30" rows="10" required></textarea>
+                    </div>    
+                </span>
+                <button class="submit-button">Submit</button>
+            </form>
+    </section>
+    <!-- Contact -->
+</body>
+</html>
