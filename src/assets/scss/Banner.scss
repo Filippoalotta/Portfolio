@@ -1,0 +1,57 @@
+$primaryColor: #12add7;
+$secondaryColor: #2d2e32;
+
+.banner-container{
+    background-color: #f7f7f7;
+    color: $secondaryColor;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 30px;
+    margin-top: 70px;
+    .banner-content{
+        max-width: 500px;
+        h1{
+            font-size: 45px;
+            font-weight: bold;
+            margin: 10px 0;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        p{
+            max-width: 450px;
+            span{
+                color: $primaryColor;
+            }
+        }
+        .skills-container{
+            display: flex;
+            flex-wrap: wrap;
+            span{
+                padding: 10px 15px;
+                border: 1px solid $secondaryColor;
+                margin: 0 10px 10px 0
+            }
+        }
+    }
+    .profile-picture{
+        height: 300px;
+        border: 2px solid $secondaryColor;
+        border-radius: 40% 60% 30% 40%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .banner-container{
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 50px 20px;
+        .banner-content{
+            .skills-container{
+                justify-content: center;
+            }
+        }
+        .profile-picture{
+            height: 260px;
+        }
+    }
+}

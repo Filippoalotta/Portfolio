@@ -1,0 +1,14 @@
+$primaryColor: #12add7;
+$secondaryColor: #2d2e32;
+
+.projects-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    background-color: #f7f7f7;
+    h1{
+        color: $secondaryColor;
+    }
+}

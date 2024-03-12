@@ -1,0 +1,11 @@
+.projects-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 300px;
+  background-color: #f7f7f7;
+}
+.projects-container h1 {
+  color: #2d2e32;
+}/*# sourceMappingURL=Projects.css.map */

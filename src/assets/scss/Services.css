@@ -1,0 +1,36 @@
+.services-container {
+  color: #2d2e32;
+  text-align: center;
+  margin-top: 50px;
+  padding: 30px 0;
+}
+.services-container h3 {
+  font-size: 16px;
+  margin: 0;
+  color: #12add7;
+}
+.services-container h2 {
+  font-size: 30px;
+  margin: 0;
+  margin: 0 20px;
+}
+.services-container p {
+  margin: 0 30px;
+}
+.services-container p span {
+  color: #12add7;
+}
+.services-container .services-content-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.services-container .services-content-container .services-content {
+  padding: 20px;
+  max-width: 300px;
+}
+.services-container .services-content-container .services-content img {
+  width: 80px;
+}/*# sourceMappingURL=Services.css.map */

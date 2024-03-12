@@ -1,0 +1,39 @@
+$primaryColor: #12add7;
+$secondaryColor: #2d2e32;
+
+.services-container{
+    color: $secondaryColor;
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px 0;
+    h3{
+        font-size: 16px;
+        margin: 0;
+        color: $primaryColor;
+    }
+    h2{
+        font-size: 30px;
+        margin: 0;
+        margin: 0 20px;
+    }
+    p{
+        margin: 0 30px;
+        span{
+            color: $primaryColor;
+        }
+    }
+    .services-content-container{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        .services-content{
+            padding: 20px;
+            max-width: 300px;
+            img{
+                width: 80px;
+            }
+        }
+    }
+}

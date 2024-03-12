@@ -1,0 +1,52 @@
+.banner-container {
+  background-color: #f7f7f7;
+  color: #2d2e32;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px 30px;
+  margin-top: 70px;
+}
+.banner-container .banner-content {
+  max-width: 500px;
+}
+.banner-container .banner-content h1 {
+  font-size: 45px;
+  font-weight: bold;
+  margin: 10px 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.banner-container .banner-content p {
+  max-width: 450px;
+}
+.banner-container .banner-content p span {
+  color: #12add7;
+}
+.banner-container .banner-content .skills-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.banner-container .banner-content .skills-container span {
+  padding: 10px 15px;
+  border: 1px solid #2d2e32;
+  margin: 0 10px 10px 0;
+}
+.banner-container .profile-picture {
+  height: 300px;
+  border: 2px solid #2d2e32;
+  border-radius: 40% 60% 30% 40%;
+}
+
+@media screen and (max-width: 1000px) {
+  .banner-container {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  .banner-container .banner-content .skills-container {
+    justify-content: center;
+  }
+  .banner-container .profile-picture {
+    height: 260px;
+  }
+}/*# sourceMappingURL=Banner.css.map */
