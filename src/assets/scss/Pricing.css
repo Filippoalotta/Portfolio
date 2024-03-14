@@ -1,0 +1,67 @@
+.pricing-container {
+  text-align: center;
+  color: #2d2e32;
+  padding: 30px;
+}
+.pricing-container h3 {
+  font-size: 16px;
+  margin: 0;
+  color: #12add7;
+}
+.pricing-container h2 {
+  font-size: 30px;
+  margin: 0;
+  margin: 0 20px;
+}
+.pricing-container p {
+  margin: 0;
+}
+.pricing-container .cards-container {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.pricing-container .cards-container .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  height: auto;
+  padding: 20px;
+  border-radius: 8px;
+  width: 280px;
+}
+.pricing-container .cards-container .card:hover {
+  border: 1px solid #2d2e32;
+  transform: scale(1.05);
+  transition: all ease-in 0.3s;
+}
+.pricing-container .cards-container .card h4 {
+  margin: 0;
+}
+.pricing-container .cards-container .card h2 {
+  color: #12add7;
+}
+.pricing-container .cards-container .card .card-content {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.pricing-container .cards-container .card .card-content span {
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+.pricing-container .cards-container .card button {
+  background-color: #2d2e32;
+}
+.pricing-container .cards-container .card button:hover {
+  background-color: #131315;
+  color: #fff;
+}
+.pricing-container .cards-container .card button a {
+  color: #fff;
+  font-weight: 600;
+}/*# sourceMappingURL=Pricing.css.map */

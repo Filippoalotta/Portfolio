@@ -1,0 +1,70 @@
+$primaryColor: #12add7;
+$secondaryColor: #2d2e32;
+
+.pricing-container{
+    text-align: center;
+    color: $secondaryColor;
+    padding: 30px;
+    h3{
+        font-size: 16px;
+        margin: 0;
+        color: $primaryColor;
+    }
+    h2{
+        font-size: 30px;
+        margin: 0;
+        margin: 0 20px;
+    }
+    p{
+        margin: 0;
+    }
+    .cards-container{
+        padding-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        .card{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            box-shadow: 0 0 10px rgba(0,0,0,.2);
+            height: auto;
+            padding: 20px;
+            border-radius: 8px;
+            width: 280px;
+            &:hover{
+                border: 1px solid $secondaryColor;
+                transform: scale(1.05);
+                transition: all ease-in 0.3s;
+            }
+            h4{
+                margin: 0;
+            }
+            h2{
+                color: $primaryColor;
+            }
+            .card-content{
+                margin: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                span{
+                    margin-bottom: 15px;
+                    font-weight: 500;
+                }
+            }
+            button{
+                background-color: $secondaryColor;
+                &:hover{
+                    background-color: #131315;
+                    color: #fff;
+                }
+                a{
+                    color: #fff;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
