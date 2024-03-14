@@ -26,6 +26,7 @@ function Header(){
                         <a href="#home"><li>Home</li></a>
                         <a href="#services"><li>Servizi</li></a>
                         <a href="#projects"><li>Portfolio</li></a>
+                        <a href="#pricing"><li>Pricing</li></a>
                         <a href="#contacts"><li>Contatti</li></a>
                     </ul>
                 </nav>
@@ -40,6 +41,7 @@ function Header(){
                         <a href="#home" onClick={handleClickMenu}><li>Home</li></a>
                         <a href="#services" onClick={handleClickMenu}><li>Servizi</li></a>
                         <a href="#projects" onClick={handleClickMenu}><li>Portfolio</li></a>
+                        <a href="#pricing" onClick={handleClickMenu}><li>Pricing</li></a>
                         <a href="#contacts" onClick={handleClickMenu}><li>Contatti</li></a>
                     </ul>
                 </nav>

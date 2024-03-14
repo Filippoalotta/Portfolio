@@ -4,7 +4,7 @@ function Pricing(){
 
     return(
         <>
-            <section className="pricing-container">
+            <section id='pricing' className="pricing-container">
                 <h3>Pricing</h3>
                 <h2>Investi nel tuo successo</h2>
                 <p>Scopri i prezzi convenienti e scegli il pacchetto perfetto per realizzare la tua idea.</p>
