@@ -20,7 +20,7 @@ function Pricing(){
                             <span>Ottimizzazione della conversione</span>
                             <span>Supporto post-sviluppo</span>
                         </div>
-                        <button><a href="#contacts">Contattami!</a></button>
+                        <a href="#contacts"><button>Contattami!</button></a>
                     </div>
                     <div className="card">
                         <h4>Sito Vetrina</h4>
@@ -33,7 +33,7 @@ function Pricing(){
                             <span>Elaborazione pagamenti</span>
                             <span>Supporto post-sviluppo</span>
                         </div>
-                        <button><a href="#contacts">Contattami!</a></button>
+                        <a href="#contacts"><button>Contattami!</button></a>
                     </div>
                     <div className="card">
                         <h4>E-commerce</h4>
@@ -46,7 +46,7 @@ function Pricing(){
                             <span>Integrazione Social Media</span>
                             <span>Supporto post-sviluppo</span>
                         </div>
-                        <button><a href="#contacts">Contattami!</a></button>
+                        <a href="#contacts"><button>Contattami!</button></a>
                     </div>
                 </div>
             </section>

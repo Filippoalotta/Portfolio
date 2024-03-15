@@ -53,15 +53,15 @@ $secondaryColor: #2d2e32;
                     padding-bottom: 12px;
                 }
             }
-            button{
-                background-color: $secondaryColor;
-                &:hover{
-                    background-color: #131315;
-                    color: #fff;
-                }
-                a{
-                    color: #fff;
-                    font-weight: 600;
+            a{
+                font-weight: 600;
+                button{
+                    background-color: $secondaryColor;
+                    padding: 15px 30px;
+                    &:hover{
+                        background-color: #131315;
+                        color: #fff;
+                    }
                 }
             }
         }
