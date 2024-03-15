@@ -7,7 +7,7 @@ function Pricing(){
             <section id='pricing' className="pricing-container">
                 <h3>Pricing</h3>
                 <h2>Investi nel tuo successo</h2>
-                <p>Scopri i prezzi convenienti e scegli il pacchetto perfetto per realizzare la tua idea.</p>
+                <p>Scopri i prezzi più convenienti e scegli il pacchetto perfetto per realizzare la tua idea.</p>
                 <div className="cards-container">
                     <div className="card">
                         <h4>Landing Page</h4>
@@ -15,9 +15,9 @@ function Pricing(){
                         <div className="card-content">
                             <span>1 pagina</span>
                             <span>Assistenza tecnica (15 giorni)</span>
-                            <span>Ottimizzazione SEO</span>
+                            <span>API di terze parti</span>
                             <span>Modulo di contatto</span>
-                            <span>Responsive design</span>
+                            <span>Ottimizzazione della conversione</span>
                             <span>Supporto post-sviluppo</span>
                         </div>
                         <button><a href="#contacts">Contattami!</a></button>
@@ -37,7 +37,7 @@ function Pricing(){
                     </div>
                     <div className="card">
                         <h4>E-commerce</h4>
-                        <h2>€1199</h2>
+                        <h2>€1499</h2>
                         <div className="card-content">
                             <span>Servizi Sito Vetrina inclusi</span>
                             <span>Fino a 10 pagine</span>

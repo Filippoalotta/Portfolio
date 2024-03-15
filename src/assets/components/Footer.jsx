@@ -25,7 +25,7 @@ function Footer(){
                         </a>
                     </ul>
                 </nav>
-                <img src={logoFooter} alt="icon logo" />
+                <a href="#home"><img src={logoFooter} alt="icon logo" /></a>
                 <div className="line"></div>
                 <div className='reserved'>© 2024 Filippo Alotta. All Rights Reserved.</div>
             </section>

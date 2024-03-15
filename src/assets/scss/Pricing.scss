@@ -34,11 +34,7 @@ $secondaryColor: #2d2e32;
             border-radius: 8px;
             margin: 20px;
             width: 280px;
-            &:hover{
-                border: 1px solid $secondaryColor;
-                transform: scale(1.05);
-                transition: all ease-in 0.3s;
-            }
+            border: 1px solid $secondaryColor;
             h4{
                 margin: 0;
             }
@@ -46,13 +42,15 @@ $secondaryColor: #2d2e32;
                 color: $primaryColor;
             }
             .card-content{
-                margin: 20px;
+                margin: 20px 20px 0 20px;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-around;
                 span{
                     margin-bottom: 15px;
                     font-weight: 500;
+                    border-bottom: 1px solid rgb(180, 180, 180);
+                    padding-bottom: 12px;
                 }
             }
             button{
