@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import logo from '../images/logo-icon1.png'
 import '../scss/Header.scss'
 
@@ -6,6 +6,14 @@ function Header(){
 
     const [hambOpen, setHambOpen] = useState(false);
     const [menuOpen, setMenuOpen] = useState(false);
+
+    useEffect(() => {
+        if (menuOpen) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = 'auto';
+        }
+    }, [menuOpen]);
 
     const handleClick = ()=> {
         setHambOpen(!hambOpen);

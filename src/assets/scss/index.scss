@@ -36,6 +36,10 @@ body {
   box-sizing: border-box;
 }
 
+.menu-active{
+  overflow: hidden;
+}
+
 button {
   border-radius: 8px;
   padding: 15px 10px;
