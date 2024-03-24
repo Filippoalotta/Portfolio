@@ -10,7 +10,7 @@ function Services(){
             <section id='services' className="services-container">
                 <h3>Web Developer</h3>
                 <h2>Filippo Alotta Web Developer</h2>
-                <p>Sono <span>Filippo Alotta</span>, esperto nello sviluppo di siti web che valorizzano l&apos;identità online di aziende, imprese e professionisti.</p>
+                <p>Sono Filippo Alotta, esperto nello sviluppo di siti web che valorizzano l&apos;identità online di aziende, imprese e professionisti.</p>
                 <div className="services-content-container">
                     <div className='services-content'>
                         <img src={devIcon} alt="web development and design icon" />
