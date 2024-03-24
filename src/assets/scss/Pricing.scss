@@ -53,6 +53,9 @@ $secondaryColor: #2d2e32;
                     padding-bottom: 12px;
                 }
             }
+            .card-content span:last-child{
+                border-bottom: none;
+            }
             a{
                 font-weight: 600;
                 button{

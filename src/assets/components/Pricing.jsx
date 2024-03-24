@@ -18,7 +18,7 @@ function Pricing(){
                             <span>API di terze parti</span>
                             <span>Modulo di contatto</span>
                             <span>Ottimizzazione della conversione</span>
-                            <span>Supporto post-sviluppo</span>
+                            <span>Consegna: 7 giorni</span>
                         </div>
                         <a href="#contacts"><button>Contattami!</button></a>
                     </div>
@@ -31,7 +31,7 @@ function Pricing(){
                             <span>Assistenza tecnica (30 giorni)</span>
                             <span>Galleria foto e video</span>
                             <span>Elaborazione pagamenti</span>
-                            <span>Supporto post-sviluppo</span>
+                            <span>Consegna: 10 giorni</span>
                         </div>
                         <a href="#contacts"><button>Contattami!</button></a>
                     </div>
@@ -43,8 +43,8 @@ function Pricing(){
                             <span>Fino a 10 pagine</span>
                             <span>Assistenza tecnica (30 giorni)</span>
                             <span>Strumenti di Marketing</span>
-                            <span>Integrazione Social Media</span>
-                            <span>Supporto post-sviluppo</span>
+                            <span>API terze parti</span>
+                            <span>Consegna: 21 giorni</span>
                         </div>
                         <a href="#contacts"><button>Contattami!</button></a>
                     </div>
