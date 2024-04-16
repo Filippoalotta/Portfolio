@@ -4,7 +4,6 @@
   font-weight: 400;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #fff;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -29,6 +28,10 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.menu-active {
+  overflow: hidden;
 }
 
 button {

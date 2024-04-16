@@ -19,9 +19,6 @@
 .banner-container .banner-content p {
   max-width: 450px;
 }
-.banner-container .banner-content p span {
-  color: #12add7;
-}
 .banner-container .banner-content .skills-container {
   display: flex;
   flex-wrap: wrap;

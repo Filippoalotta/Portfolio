@@ -2,6 +2,7 @@
   text-align: center;
   color: #2d2e32;
   padding: 30px;
+  background-color: #fff;
 }
 .pricing-container h3 {
   font-size: 16px;
@@ -33,11 +34,7 @@
   border-radius: 8px;
   margin: 20px;
   width: 280px;
-}
-.pricing-container .cards-container .card:hover {
   border: 1px solid #2d2e32;
-  transform: scale(1.05);
-  transition: all ease-in 0.3s;
 }
 .pricing-container .cards-container .card h4 {
   margin: 0;
@@ -46,7 +43,7 @@
   color: #12add7;
 }
 .pricing-container .cards-container .card .card-content {
-  margin: 20px;
+  margin: 20px 20px 0 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -54,15 +51,20 @@
 .pricing-container .cards-container .card .card-content span {
   margin-bottom: 15px;
   font-weight: 500;
+  border-bottom: 1px solid rgb(180, 180, 180);
+  padding-bottom: 12px;
 }
-.pricing-container .cards-container .card button {
+.pricing-container .cards-container .card .card-content span:last-child {
+  border-bottom: none;
+}
+.pricing-container .cards-container .card a {
+  font-weight: 600;
+}
+.pricing-container .cards-container .card a button {
   background-color: #2d2e32;
+  padding: 15px 30px;
 }
-.pricing-container .cards-container .card button:hover {
+.pricing-container .cards-container .card a button:hover {
   background-color: #131315;
   color: #fff;
-}
-.pricing-container .cards-container .card button a {
-  color: #fff;
-  font-weight: 600;
 }/*# sourceMappingURL=Pricing.css.map */

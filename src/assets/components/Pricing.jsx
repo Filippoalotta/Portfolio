@@ -14,7 +14,6 @@ function Pricing(){
                         <h2>€499</h2>
                         <div className="card-content">
                             <span>1 pagina</span>
-                            <span>Assistenza tecnica (15 giorni)</span>
                             <span>API di terze parti</span>
                             <span>Modulo di contatto</span>
                             <span>Ottimizzazione della conversione</span>
@@ -28,9 +27,8 @@ function Pricing(){
                         <div className="card-content">
                             <span>Servizi landing page inclusi</span>
                             <span>Fino a 5 pagine</span>
-                            <span>Assistenza tecnica (30 giorni)</span>
                             <span>Galleria foto e video</span>
-                            <span>Elaborazione pagamenti</span>
+                            <span>Integrazione social media</span>
                             <span>Consegna: 10 giorni</span>
                         </div>
                         <a href="#contacts"><button>Contattami!</button></a>
@@ -41,8 +39,7 @@ function Pricing(){
                         <div className="card-content">
                             <span>Servizi Sito Vetrina inclusi</span>
                             <span>Fino a 10 pagine</span>
-                            <span>Assistenza tecnica (30 giorni)</span>
-                            <span>Strumenti di Marketing</span>
+                            <span>Elaborazione pagamenti</span>
                             <span>API terze parti</span>
                             <span>Consegna: 21 giorni</span>
                         </div>

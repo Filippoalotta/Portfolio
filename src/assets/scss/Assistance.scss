@@ -1,0 +1,49 @@
+$primaryColor: #12add7;
+$secondaryColor: #2d2e32;
+
+.assistance-section{
+    background-color: #fff;
+    color: $secondaryColor;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    padding: 20px;
+    .assistance-content{
+        max-width: 400px;
+        h3{
+            color: $primaryColor;
+            margin: 0;
+        }
+        h2, p{
+            margin: 0;
+        }
+    }
+    img{
+        width: 400px;
+        margin: 10px;
+        border: 1px solid $secondaryColor;
+        border-radius: 8px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    
+    .assistance-section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{
+            margin-top: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 430px) {
+    
+    .assistance-section{
+        img{
+            width: 100%;
+        }
+    }
+}

@@ -1,8 +1,8 @@
 .services-container {
   color: #2d2e32;
   text-align: center;
-  margin-top: 50px;
-  padding: 30px 0;
+  padding: 50px 0 30px 0;
+  background-color: #fff;
 }
 .services-container h3 {
   font-size: 16px;
@@ -16,9 +16,6 @@
 }
 .services-container p {
   margin: 0 30px;
-}
-.services-container p span {
-  color: #12add7;
 }
 .services-container .services-content-container {
   display: flex;
