@@ -1,8 +1,31 @@
 import '../scss/Contacts.scss'
 import locIcon from '../images/loc-icon.png'
 import maiIcon from '../images/mai-icon.png'
+import { useState } from 'react';
+import { firestore } from '../form/Form';
 
 function Contacts(){
+
+    const [firstName, setFirstName] = useState('');
+    const [lastName, setLastName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+
+    const handleSubmit = (e)=> {
+        e.preventDefault();
+
+        firestore.collection('messages').add({
+            firstName,
+            lastName,
+            email,
+            message
+        }).then(() => {
+            setFirstName(''),
+            setLastName(''),
+            setEmail(''),
+            setMessage('')
+        }).catch((error) => console.error('error submitting data:', error))
+    }
 
     return(
         <>
@@ -25,6 +48,13 @@ function Contacts(){
                         </div>
                     </div>
                 </div>
+                <form onSubmit={handleSubmit}>
+                    <input type="text" className='input1' value={firstName} placeholder='Inserisci il tuo nome' autoComplete='off' onChange={(e) => setFirstName(e.target.value)} required/>
+                    <input type="text" className='input1' value={lastName} placeholder='Inserisci il tuo cognome' autoComplete='off' onChange={(e) => setLastName(e.target.value)} required/>
+                    <input type="email" className='input1' value={email} name="email" id="email" placeholder='Inserisci la tua email' autoComplete='off' onChange={(e) => setEmail(e.target.value)} required/>
+                    <textarea name="message" id="message" value={message} placeholder='Scrivici un messaggio' autoComplete='off' onChange={(e) => setMessage(e.target.value)} required></textarea>
+                    <button type="submit" className='button2'>Invia messaggio</button>
+                </form>
             </section>
         </>
     )

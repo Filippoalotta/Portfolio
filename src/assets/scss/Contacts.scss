@@ -44,13 +44,70 @@ $secondaryColor: #2d2e32;
             }
         }
     }
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 30px;
+        .input1{
+            padding: 10px 15px;
+            width: 500px;
+            margin-bottom: 20px;
+            background-color: #fff;
+            color: gray;
+            border: none;
+            border-bottom: 1px solid gray;
+            font-size: 18px;
+            outline: none;
+            &:focus{
+                border-bottom: 1px solid $primaryColor;
+                transition: all ease-in-out 0.3s;
+            }
+        }
+        textarea{
+            padding: 10px 15px;
+            background-color: #fff;
+            color: gray;
+            border: none;
+            border-bottom: 1px solid gray;
+            width: 500px;
+            height: 100px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            outline: none;
+            &:focus{
+                border-bottom: 1px solid $primaryColor;
+                transition: all ease-in-out 0.3s;
+            }
+        }
+        .button2{
+            margin-top: 15px;
+            padding: 1em 2em;
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    
+    .contacts-container{
+        form{
+            width: 90vw;
+            margin: auto;
+            margin-top: 30px;
+            .input1{
+                width: 100%;
+            }
+            textarea{
+                width: 100%;
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 460px) {
     .contacts-container{
         .contacts-content-container{
-            flex-direction: column;
-            justify-content: space-around;
             .contacts-content{
                 flex-direction: column;
                 .contacts-text{
