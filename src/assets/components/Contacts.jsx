@@ -14,7 +14,7 @@ function Contacts(){
     const handleSubmit = (e)=> {
         e.preventDefault();
 
-        firestore.collection('messages').add({
+        firestore.collection('form').add({
             firstName,
             lastName,
             email,
