@@ -14,7 +14,7 @@ function Pricing(){
                         <h2>€499</h2>
                         <div className="card-content">
                             <span>1 pagina</span>
-                            <span>API di terze parti</span>
+                            <span>Call to action</span>
                             <span>Modulo di contatto</span>
                             <span>Ottimizzazione della conversione</span>
                             <span>Consegna: 7 giorni</span>
