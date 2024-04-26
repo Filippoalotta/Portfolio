@@ -27,8 +27,8 @@ function Pricing(){
                         <div className="card-content">
                             <span>Servizi landing page inclusi</span>
                             <span>Fino a 5 pagine</span>
-                            <span>Galleria foto e video</span>
-                            <span>Integrazione social media</span>
+                            <span>Galleria foto</span>
+                            <span>Sezione FAQ</span>
                             <span>Consegna: 10 giorni</span>
                         </div>
                         <a href="#contacts"><button>Contattami!</button></a>
@@ -40,7 +40,7 @@ function Pricing(){
                             <span>Servizi Sito Vetrina inclusi</span>
                             <span>Fino a 10 pagine</span>
                             <span>Elaborazione pagamenti</span>
-                            <span>API terze parti</span>
+                            <span>Wish List</span>
                             <span>Consegna: 21 giorni</span>
                         </div>
                         <a href="#contacts"><button>Contattami!</button></a>

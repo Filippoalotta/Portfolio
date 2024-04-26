@@ -1,14 +1,67 @@
 $primaryColor: #12add7;
 $secondaryColor: #2d2e32;
 
-.projects-container{
+.projects-page{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 300px;
+    flex-direction: column;
     background-color: #f7f7f7;
+    padding: 40px 20px;
+    text-align: center;
+    .projects-container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+        gap: 25px;
+        .project{
+            width: 350px;
+            background-color: $secondaryColor;
+            color: #fff;
+            text-align: center;
+            border-radius: 20px 20px 20px 20px;
+            box-shadow: 6px 4px 6px 4px rgba(0, 0, 0, 0.1);
+            padding-bottom: 10px;
+            cursor: pointer;
+            &:hover{
+                transform: scale(1.1);
+                transition: all ease-in-out 0.3s;
+            }
+            img{
+                width: 100%;
+                border-radius: 20px 20px 0 0;
+            }
+            h3{
+                font-size: 20px;
+                margin: 20px;
+            }
+            .skills-container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                margin: 0 10px;
+                span{
+                    padding: 10px 15px;
+                    border: 1px solid #fff;
+                    margin: 0 10px 10px 0
+                }
+            }
+        }
+    }
     h1{
         color: $secondaryColor;
     }
+}
+
+@media screen and (max-width: 400px) {
+
+    .projects-page{
+        .projects-container{
+            .project{
+                width: 90vw;
+            }
+        }
+    }
+    
 }
