@@ -28,6 +28,10 @@ function Footer(){
                 <a href="#home"><img src={logoFooter} alt="icon logo" /></a>
                 <div className="line"></div>
                 <div className='reserved'>© 2024 Filippo Alotta. All Rights Reserved.</div>
+                <div className='privacy'>
+                    <a href="https://www.iubenda.com/privacy-policy/82963324" className="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe " title="Privacy Policy ">Privacy Policy</a>
+                    <a href="https://www.iubenda.com/privacy-policy/82963324/cookie-policy" className="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe " title="Cookie Policy ">Cookie Policy</a>
+                </div>
             </section>
         </>
     )
