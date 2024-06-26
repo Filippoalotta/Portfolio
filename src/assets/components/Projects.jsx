@@ -27,6 +27,7 @@ function Projects() {
                             <div className="skills-container">
                                 <span>React</span>
                                 <span>Sass</span>
+                                <span>Firebase</span>
                             </div>
                         </div>
                    </a>

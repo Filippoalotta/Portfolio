@@ -31,7 +31,7 @@ function Contacts(){
         <>
             <section id='contacts' className="contacts-container">
                 <h3>Contatti</h3>
-                <h2>Hai bisogno di un sito web? Parliamone!</h2>
+                <h2>Vorresti collaborare con me? Parliamone!</h2>
                 <div className="contacts-content-container">
                     <div className="contacts-content">
                         <img src={locIcon} alt="Location icon" />
@@ -52,7 +52,7 @@ function Contacts(){
                     <input type="text" className='input1' value={firstName} placeholder='Inserisci il tuo nome' autoComplete='off' onChange={(e) => setFirstName(e.target.value)} required/>
                     <input type="text" className='input1' value={lastName} placeholder='Inserisci il tuo cognome' autoComplete='off' onChange={(e) => setLastName(e.target.value)} required/>
                     <input type="email" className='input1' value={email} name="email" id="email" placeholder='Inserisci la tua email' autoComplete='off' onChange={(e) => setEmail(e.target.value)} required/>
-                    <textarea name="message" id="message" value={message} placeholder='Scrivici un messaggio' autoComplete='off' onChange={(e) => setMessage(e.target.value)} required></textarea>
+                    <textarea name="message" id="message" value={message} placeholder='Scrivimi un messaggio' autoComplete='off' onChange={(e) => setMessage(e.target.value)} required></textarea>
                     <button type="submit" className='button2'>Invia messaggio</button>
                 </form>
             </section>
