@@ -17,8 +17,6 @@ function Banner(){
                         <span>Javascript</span>
                         <span>React</span>
                         <span>Firebase</span>
-                        <span>WordPress</span>
-                        <span>Shopify</span>
                     </div>
                 </div>
                 <img src={ProfilePicture} alt="Profile picture" className='profile-picture' />
