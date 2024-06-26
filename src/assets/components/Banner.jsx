@@ -13,8 +13,8 @@ function Banner(){
                         <span>HTML</span>
                         <span>CSS</span>
                         <span>Sass</span>
-                        <span>Bootstrap</span>
-                        <span>Javascript</span>
+                        <span>JavaScript</span>
+                        <span>TypeScript</span>
                         <span>React</span>
                         <span>Firebase</span>
                     </div>
