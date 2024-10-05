@@ -32,7 +32,7 @@ function Contacts(){
             <section id='contacts' className="contacts-container">
                 <h3>Contatti</h3>
                 <h2>Vorresti collaborare con me? Parliamone!</h2>
-                <div className="contacts-content-container">
+                {/* <div className="contacts-content-container">
                     <div className="contacts-content">
                         <img src={locIcon} alt="Location icon" />
                         <div className='contacts-text'>
@@ -47,7 +47,7 @@ function Contacts(){
                             <span>Alottafilippo@gmail.com</span>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <form onSubmit={handleSubmit}>
                     <input type="text" className='input1' value={firstName} placeholder='Inserisci il tuo nome' autoComplete='off' onChange={(e) => setFirstName(e.target.value)} required/>
                     <input type="text" className='input1' value={lastName} placeholder='Inserisci il tuo cognome' autoComplete='off' onChange={(e) => setLastName(e.target.value)} required/>

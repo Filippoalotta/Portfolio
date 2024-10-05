@@ -2,7 +2,6 @@ import Header from './assets/components/Header';
 import Banner from './assets/components/Banner';
 import Services from './assets/components/Services';
 import Projects from './assets/components/Projects';
-//import Pricing from './assets/components/Pricing';
 import Contacts from './assets/components/Contacts';
 import Footer from './assets/components/Footer';
 import './assets/scss/App.scss';
@@ -15,7 +14,6 @@ function App() {
       <Banner></Banner>
       <Services></Services>
       <Projects></Projects>
-      {/* <Pricing></Pricing> */}
       <Contacts></Contacts>
       <Footer></Footer>
     </>

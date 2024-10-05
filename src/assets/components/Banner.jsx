@@ -8,7 +8,7 @@ function Banner(){
             <section id='home' className="banner-container">
                 <div className="banner-content">
                     <h1>Front-End React Developer 💻</h1>
-                    <p>Ciao, sono Filippo Alotta, un Front-end React Developer di Roma.</p>
+                    <p>Hi, I&apos;m Filippo Alotta, a Front-end React Developer based in Rome.</p>
                     <div className="skills-container">
                         <span>HTML</span>
                         <span>CSS</span>
