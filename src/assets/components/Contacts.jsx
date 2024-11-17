@@ -1,6 +1,6 @@
 import '../scss/Contacts.scss'
-import locIcon from '../images/loc-icon.png'
-import maiIcon from '../images/mai-icon.png'
+//import locIcon from '../images/loc-icon.png'
+//import maiIcon from '../images/mai-icon.png'
 import { useState } from 'react';
 import { firestore } from '../form/Form';
 

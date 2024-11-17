@@ -13,10 +13,12 @@ function Banner(){
                         <span>HTML</span>
                         <span>CSS</span>
                         <span>Sass</span>
+                        <span>Tailwind</span>
                         <span>JavaScript</span>
                         <span>TypeScript</span>
                         <span>React</span>
-                        <span>Firebase</span>
+                        <span>Next.js</span>
+                        <span>Git</span>
                     </div>
                 </div>
                 <img src={ProfilePicture} alt="Profile picture" className='profile-picture' />
